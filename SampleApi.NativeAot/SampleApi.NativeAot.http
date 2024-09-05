@@ -1,0 +1,27 @@
+@SampleApi.NativeAot_HostAddress = http://localhost:5201
+
+GET http://localhost:5201/todos/
+Accept: application/json
+
+###
+
+GET http://localhost:5201/todos/1
+Accept: application/json
+
+###
+
+POST http://localhost:5201/todos/lead
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "John Doe",
+  "lastName": "Doe",
+  "email": "f@test.de",
+  "phone": "1234567890",
+  "company": "Test"
+}
+
+
+
+

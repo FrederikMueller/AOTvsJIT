@@ -1,0 +1,11 @@
+@SampleApi.NativeAot_HostAddress = http://localhost:5201
+
+GET {{SampleApi.NativeAot_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{SampleApi.NativeAot_HostAddress}}/todos/1
+Accept: application/json
+
+###

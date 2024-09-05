@@ -1,0 +1,6 @@
+﻿FROM ubuntu:20.04
+WORKDIR /app
+EXPOSE 8080
+COPY . ./
+ENV ASPNETCORE_URLS=http://+:8080
+ENTRYPOINT ["./SampleApi.NativeAot"]
